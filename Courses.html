@@ -1,0 +1,314 @@
+<html>
+<head>
+<title>صفحة الكورسات</title>
+<style>
+body{
+background-color:#F9DC91;
+ margin:0;
+
+}
+h1 {
+text-align:center;
+color:rgb(21,21,100);
+}
+h3 {
+text-align:center;
+color:rgb(21,21,100);
+}
+hr{
+border:none;
+height:4px;
+background-color:black;
+}
+p {
+font-size:16px;
+color:#333;
+font-weight:bold;
+
+}
+a {
+text-decoration:none;
+font-size:20px;
+
+}
+
+.course-row {
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+margin:37px;
+}
+.course img {
+width:190px;
+height:190px;
+object-fit:cover;
+margin-bottom:9px;
+
+}
+
+.course {
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+margin-bottom:47px;
+background-color:#F8F2E3;
+padding:10px;
+width:370px;
+height:450px;
+ border-radius: 5px;
+
+}
+
+nav{
+background-color:white;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+height:100px;
+}
+
+nav img{width:150px;
+cursor:pointer;
+height:90px;}
+
+nav  ul{
+display:flex;
+justify-content:flex-end;
+align-item:center;}
+
+nav  ul li{
+list-style:none;
+margin-left:30px;
+margin-right:30px;
+position:relative;
+}
+
+
+
+nav ul li a{
+text-decoration:none;
+color:rgb(21,21,100);
+font-size:21px;
+text-transform:uppercase;
+font-weight:500;
+}
+
+nav  ul li::after{
+content:'';
+height:3px;
+width:0;
+background:#FFD15C;
+position:absolute;
+left:0;
+bottom:-10px;
+transition:0.5s;}
+
+nav  ul li:hover::after{width:100%;}
+
+</style>
+</head>
+
+ <nav>
+<image src="D:/Web Programming/Final Project/Artboard – 1.PNG">
+<ul>
+<li><a href="Audio Books.html"><b>الكتب المسموعة</b></a></li>
+<li><a href="Written Books.html"><b>الكتب المقروئة</b></a></li>
+<li><a href="Courses.html"><b>الدورات والكورسات</b></a></li>
+<li><a href="login.html" ><b>تسجيل الدخول</b></a></li>
+<li><a href="html.html" ><b>الرئيسية</b></a></li>
+</ul>
+</nav>
+<body>
+
+
+
+<div class="section">
+<br>
+<h1>قسم البرمجة</h1>
+<br>
+<div class="course-row">
+<div class="course">
+<img src="D:/Web Programming/Final Project/LMM.png" alt="دورة علوم الحاسوب">
+<h3>دورة علوم الحاسوب</h3>
+<p>اسم المدرس:محمد أحمد</p>
+<p>تاريخ البدء:1 يناير 2024</p>
+<p>تاريخ الانتهاء:30 يونيو 2024</p>
+<p> نبذة عن الدورة:دورة تغطي مفاهيم الحوسبه الاساسية والبرمجة </p>
+<a href="https://academy.hsoub.com/learn/computer-science/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/MTM.png" alt="دورة تطوير واجهات المستخدم">
+<h3>دورة تطوير واجهات المستخدم</h3>
+<p>اسم المدرس:صالح سعيد</p>
+<p>تاريخ البدء:1 فبراير 2024</p>
+<p>تاريخ الانتهاء:30 مايو 2024</p>
+<p>نبذة عن الدورة:تشمل هذه الدورة دراسة مفاهيم تصميم الواجهات وتحليل احتياجات المستخدم </p>
+<a href="https://academy.hsoub.com/learn/front-end-web-development/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/python.png" alt="دورة تطوير واجهات المستخدم">
+<h3>Python دورة تطوير التطبيقات بأستخدام لغة </h3>
+<p>اسم المدرس:هيام اسعد</p>
+<p>تاريخ البدء:1 مارس 2024</p>
+<p>تاريخ الانتهاء:30 اكتوبر 2024</p>
+<p> python نبذة عن الدورة:تغطي هذه الدورة مفاهيم البرمجة الاساسية وتقنيات تطوير الطبيقات </p>
+<a href="https://academy.hsoub.com/learn/python-application-development/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/JVS.png" alt="دورة تطوير واجهات المستخدم">
+<h3> JavaScript دورة تطوير التطبيقات بأستخدام لغة </h3>
+<p>اسم المدرس:خالد محمد</p>
+<p>تاريخ البدء:1 اغسطس 2024</p>
+<p>تاريخ الانتهاء:30 سبتمبر 2024</p>  
+<p> JavaScript نبذة عن الدورة:تتناول هذه الدورة لغة البرمجة العديد من المفاهيم والادوات التي تمكن المطورين من العمل بفعالية في مجال تطوير الويب  </p>
+<a href="https://academy.hsoub.com/learn/javascript-application-development/"target="_blank"">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/PHP.png" alt="دورة تطوير واجهات المستخدم">
+<h3> PHP دورة تطوير تطبيقات الويب بأستخدام لغة </h3>
+<p>اسم المدرس:قمر حسسن</p>
+<p>تاريخ البدء: 1ابريل 2024</p>
+<p>تاريخ الانتهاء:30 يوليو 2024</p>
+<p> PHP نبذة عن الدورة:تستكشف هذه الدورة مفاهيم البرمجة الاساسية كيفية تطبيقها لتحسين تفاعل المستخدم مع مواقع الويب  </p>
+<a href="https://academy.hsoub.com/learn/php-web-application-development/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/Ruby.png" alt="دورة تطوير واجهات المستخدم">
+<h3> Ruby دورة تطوير تطبيقات الويب بأستخدام لغة </h3>
+<p>اسم المدرس:اميرة عبدالله</p>
+<p>تاريخ البدء: اغسطس 2024</p>
+<p>تاريخ الانتهاء:30 سبتمبر 2024</p>
+<p> Ruby  نبذة عن الدورة:تشمل هذه الدورة مفاهيم البرمجة الاساسيةوكيفية تطبيقها في تطوير تطبيقات الويب بشكل كامل   </p>
+<a href="https://academy.hsoub.com/learn/ruby-web-application-development/"target="_blank"">رابط الدورة</a>
+</div>
+</div>
+
+<hr>
+
+<div class="section">
+<br>
+<h1>قسم التصميم</h1>
+<br>
+<div class="course-row">
+<div class="course">
+<img src="D:/Web Programming/Final Project/TRT.JPG" alt="التصوير الفوتوغرافي">
+<h3>دورة التصوير الفوتوغرافي</h3>
+<p>اسم المدرس:سالم عبد الرحمن</p>
+<p>تاريخ البدء:1 يناير 2024</p>
+<p>تاريخ الانتهاء:30 يونيو 2024</p>
+<p>نبذة عن الدورة:تتنوع هذه الدورة لتشمل الجوانب الفنية والابداعية والتقنية لتمكين المشاركين من انشاء صور مؤثرة وجذابة </p>
+<a href="https://bgitd.com/courses/%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%81%D9%88%D8%AA%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A-phx/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/UMN.JPG" alt="دورة تصميم مواقع الانترنت">
+<h3>دورة تصميم مواقع الانترنت</h3>
+<p>اسم المدرس:غالب ناصر</p>
+<p>تاريخ البدء:1 مارس 2024</p>
+<p>تاريخ الانتهاء:30 مايو 2024</p>
+<p>نبذة عن الدورة:تشمل هذه الدورة فحوى حول أساسيات تصميم الجرافيكي وبرمجة الواجهة الامامية </p>
+<a href="https://topcenteracademy.com/web-design-course/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/SKL.JPG" alt="دورة التصميم الجرافيكي">
+<h3> دورة التصميم الجرافيكي </h3>
+<p>اسم المدرس:طه حسن</p>
+<p>تاريخ البدء:1 مايو 2024</p>
+<p>تاريخ الانتهاء:30 نوفمبر2024</p>
+<p> نبذة عن الدورة:تشمل هذه الدورة دراسة العناصر الاساسية للتصميم واستخدام البرمجيات المختلفه لانشاء رسومات وصور فعالة وجذابة </p>
+<a href="https://bgitd.com/courses/%D8%AF%D9%88%D8%B1%D8%A9-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D9%81%D9%8A%D9%83-gdx/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/TFT.JPG" alt="دورة أساسيات تصميم الأزياء">
+<h3> دورة أساسيات تصميم الأزياء </h3>
+<p>اسم المدرس:نسرين طارق</p>
+<p>تاريخ البدء:1 اكتوبر 2024</p>
+<p>تاريخ الانتهاء:30 ديسمبر 2024</p>  
+<p> نبذة عن الدورة:تهدف هذه الدورة الى نقل المفاهيم الاساسية لتصميم الملابس بدءا من فهم هياكل القطع وأنتهاء باتقان عمليات الخياطة  </p>
+<a href="https://www.edlibre.com/free-course-in-fashion-design-and-with-certified/"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/JPJ.PNG" alt="دورة التسويق الاكتروني">
+<h3> دورة التسويق الأكتروني </h3>
+<p>اسم المدرس:سمية نجيب</p>
+<p>تاريخ البدء: 1مايو 2024</p>
+<p>تاريخ الانتهاء:30 نوفمبر 2024</p>
+<p> نبذة عن الدورة:تقدم فهما شاملا حول استراتيجيات التسويق عبر الانترنت  </p>
+<a href="https://www.for9a.com/courses/%D8%AF%D9%88%D8%B1%D8%A9-%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/WWW.webp" alt="دورة التصميم الداخلي">
+<h3> دورة التصميم الداخلي </h3>
+<p>اسم المدرس:منار هائل</p>
+<p>تاريخ البدء: 1 سبتمبر 2024</p>
+<p>تاريخ الانتهاء:30 ديسمبر 2024</p>
+<p>   نبذة عن الدورة:تقدم فهما شاملا عن فن وعلم تحسين المساحات الداخلية   </p>
+<a href="https://kalcenter.com/course/%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%83%D9%88%D8%B1-%D9%85%D8%AC%D8%A7%D9%86%D8%A7/"target="_blank">رابط الدورة</a>
+</div>
+</div>
+<hr>
+
+<div class="section">
+<br>
+<h1>قسم اللغات</h1>
+<br>
+<div class="course-row">
+<div class="course">
+<img src="D:/Web Programming/Final Project/ARB.JPG" alt="دورة اللغة العربية">
+<h3>دورة تعلم اللغة العربية</h3>
+<p>اسم المدرس:نورا ياسر</p>
+<p>تاريخ البدء:1 يناير 2024</p>
+<p>تاريخ الانتهاء:30 مارس 2024</p>
+<p>نبذة عن الدورة:تهدف الى تعلم مهارات العربية في القراءة والكتابة  </p>
+<a href="https://www.m3aarf.com/certificate/15600/%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/ENG.JPG" alt="دورة اللغة الانجليزية">
+<h3>دورة تعلم اللغة الانجليزية</h3>
+<p>اسم المدرس:ياسر عبد الخالق</p>
+<p>تاريخ البدء:1 مايو 2024</p>
+<p>تاريخ الانتهاء:30 اكتوبر 2024</p>
+<p>نبذة عن الدورة:تشمل الدورة دراسة قواعد اللغة وتوسيع المفردات </p>
+<a href="https://www.m3aarf.com/certificate/6536"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/DRT.JPG" alt="دورة اللغة التركية">
+<h3> دورة تعلم اللغة التركية </h3>
+<p>اسم المدرس:ياسمين محمد</p>
+<p>تاريخ البدء:1 اغسطس  2024</p>
+<p>تاريخ الانتهاء:30 نوفمبر 2024</p>
+<p> نبذة عن الدورة:تهدف الى تعلم وتحسين اللغة التركية مشمولة قواعد النحو والصرف وتوسيع المفردات </p>
+<a href="https://www.m3aarf.com/certificate/6528"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/IMG.JPG" alt="دورة اللغة الصينية">
+<h3> دورة تعلم اللغة الصينية </h3>
+<p>اسم المدرس:فارس عبد المجيد</p>
+<p>تاريخ البدء:1 فبراير 2024</p>
+<p>تاريخ الانتهاء:30 يوليو 2024</p>  
+<p>نبذة عن الدورة:تشمل دراسة الحروف الصينية والمفردات    </p>
+<a href="https://www.m3aarf.com/certificate/7153"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/URL.PNG" alt="دورة اللغة اليابانية">
+<h3> دورة تعلم اللغة اليابانية </h3>
+<p>اسم المدرس:هيثم ماجد</p>
+<p>تاريخ البدء: 1 يناير 2024</p>
+<p>تاريخ الانتهاء:30 مارس 2024</p>
+<p> نبذة عن الدورة:تعلم اللغة اليابانية بما في ذالك الكتابة بالكانا والكانجي  </p>
+<a href="https://www.m3aarf.com/certificate/7834"target="_blank">رابط الدورة</a>
+</div>
+<div class="course">
+<img src="D:/Web Programming/Final Project/JKY.JPG" alt="دورة اللغة الاندونيسية">
+<h3> دورة اللغة الاندونيسية </h3>
+<p>اسم المدرس:ايمان اسامة</p>
+<p>تاريخ البدء: 1 ايونيو 2024</p>
+<p>تاريخ الانتهاء:30 نوفمبر 2024</p>
+<p> نبذة عن الدورة:تركز على تعلم اللغة الاندونيسية مع التركيز على الالفاظ والتعبيرات اليومية وتوفر فهم عميق لمهارات الاستماع والتحدث والقراءة والكتابة في الساق الثقافي الاندونيسي   </p>
+<a href="https://www.languageinternational.ly/indonesian-courses"target="_blank">رابط الدورة</a>
+</div>
+</div>
+
+</body>
+</html>
